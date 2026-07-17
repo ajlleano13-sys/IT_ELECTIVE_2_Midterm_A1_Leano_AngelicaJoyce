@@ -2,7 +2,262 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<section id="home" class="mb-5">
+
+    <div class="row align-items-center">
+
+        <div class="col-md-4 text-center">
+
+            <img src="~/images/profile.jpg.jfif"
+                 class="img-fluid rounded-circle"
+                 width="250"
+                 alt="Profile Photo">
+
+        </div>
+
+        <div class="col-md-8">
+
+            <h1>Angelica Joyce Leaño</h1>
+
+            <h3>BS Information Technology Student</h3>
+
+            <p>
+                Hello! I'm an aspiring software developer who enjoys creating
+                websites and learning new technologies.
+            </p>
+
+            <a href="#projects" class="btn btn-primary me-2">View Projects</a>
+
+            <a href="#contact" class="btn btn-success">Contact Me</a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<hr>
+
+<section id="about" class="mb-5">
+
+    <h2 class="mb-4">About Me</h2>
+
+    <div class="card shadow p-4">
+
+        <p>
+            I am <strong>Angelica Joyce Leaño</strong>, a Bachelor of Science in Information Technology (BSIT) student. I am passionate about learning programming, web development, and creating user-friendly applications. I enjoy improving my technical skills through school projects and personal practice.
+        </p>
+
+        <p>
+            My goal is to become a professional software developer who can build modern and responsive web applications. Aside from coding, I enjoy exploring new technologies, working with classmates on projects, and continuously learning to become a better IT professional.
+        </p>
+
+        <h5 class="mt-4">Educational Background</h5>
+
+        <ul>
+            <li>Bachelor of Science in Information Technology (BSIT)</li>
+            <li>Current College Student</li>
+        </ul>
+
+        <h5 class="mt-4">Career Goal</h5>
+
+        <p>
+            To become a skilled Full-Stack Web Developer and contribute to innovative software solutions.
+        </p>
+
+        <h5 class="mt-4">Personal Interests</h5>
+
+        <ul>
+            <li>Web Development</li>
+            <li>Programming</li>
+            <li>Learning New Technologies</li>
+            <li>Listening to Music</li>
+        </ul>
+
+    </div>
+
+</section>
+
+<hr>
+
+<section id="skills" class="mb-5">
+
+    <h2 class="mb-4">My Skills</h2>
+
+    <div class="row">
+
+        <div class="col-md-3 mb-3">
+            <div class="card shadow h-100">
+                <div class="card-body text-center">
+                    <h5>Programming Languages</h5>
+                    <p>C#<br>HTML<br>CSS<br>JavaScript</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-3">
+            <div class="card shadow h-100">
+                <div class="card-body text-center">
+                    <h5>Web Technologies</h5>
+                    <p>ASP.NET Core MVC<br>Bootstrap 5<br>Razor Views</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-3">
+            <div class="card shadow h-100">
+                <div class="card-body text-center">
+                    <h5>Databases</h5>
+                    <p>SQL Server<br>MySQL</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-3">
+            <div class="card shadow h-100">
+                <div class="card-body text-center">
+                    <h5>Development Tools</h5>
+                    <p>Visual Studio<br>Git<br>GitHub<br>VS Code</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<hr>
+
+<section id="projects" class="mb-5">
+
+    <h2 class="mb-4">My Projects</h2>
+
+    <div class="row">
+
+        <!-- Project 1 -->
+        <div class="col-md-4 mb-4">
+            <div class="card shadow h-100">
+
+                <img src="~/images/project1.jpg"
+                     class="card-img-top"
+                     alt="Project 1">
+
+                <div class="card-body">
+
+                    <h5 class="card-title">
+                        Student Management System
+                    </h5>
+
+                    <p class="card-text">
+                        A web application for managing student information,
+                        grades, and attendance.
+                    </p>
+
+                    <p>
+                        <strong>Technologies:</strong><br>
+                        ASP.NET Core MVC, SQL Server, Bootstrap
+                    </p>
+
+                    <button class="btn btn-primary">
+                        View Details
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="col-md-4 mb-4">
+            <div class="card shadow h-100">
+
+                <img src="~/images/project2.jpg"
+                     class="card-img-top"
+                     alt="Project 2">
+
+                <div class="card-body">
+
+                    <h5 class="card-title">
+                        Loan Calculator
+                    </h5>
+
+                    <p class="card-text">
+                        A desktop application that computes loan payments,
+                        interest, and monthly amortization.
+                    </p>
+
+                    <p>
+                        <strong>Technologies:</strong><br>
+                        VB.NET, Windows Forms
+                    </p>
+
+                    <button class="btn btn-primary">
+                        View Details
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="col-md-4 mb-4">
+            <div class="card shadow h-100">
+
+                <img src="~/images/project3.jpg"
+                     class="card-img-top"
+                     alt="Project 3">
+
+                <div class="card-body">
+
+                    <h5 class="card-title">
+                        Personal Portfolio Website
+                    </h5>
+
+                    <p class="card-text">
+                        A responsive portfolio website created using
+                        ASP.NET Core MVC and Bootstrap 5.
+                    </p>
+
+                    <p>
+                        <strong>Technologies:</strong><br>
+                        ASP.NET Core MVC, Bootstrap, HTML, CSS
+                    </p>
+
+                    <button class="btn btn-primary">
+                        View Details
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<hr>
+
+<section id="contact" class="mb-5">
+
+    <h2 class="mb-4">Contact Me</h2>
+
+    <div class="card shadow p-4">
+
+        <p><strong>Email:</strong> ajlleano13@gmail.com</p>
+
+        <p><strong>Mobile:</strong> 09935865995</p>
+
+        <p><strong>GitHub:</strong> https://github.com/ajlleano13-sys</p>
+
+        <p><strong>LinkedIn:</strong> https://www.linkedin.com/</p>
+
+        <p><strong>Facebook:</strong> https://www.facebook.com/</p>
+
+        <button class="btn btn-success mt-3">
+            Download Resume
+        </button>
+
+    </div>
+
+</section>
