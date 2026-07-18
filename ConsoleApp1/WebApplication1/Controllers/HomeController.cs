@@ -29,7 +29,7 @@ public class HomeController : Controller
     }
     public IActionResult Skills()
     {
-     
+
         return View();
     }
 
