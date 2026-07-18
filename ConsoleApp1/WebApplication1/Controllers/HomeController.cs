@@ -32,7 +32,7 @@ public class HomeController : Controller
         ViewData["Education1"] = "Bachelor of Science in Information Technology (BSIT)";
         ViewData["Education2"] = "Current College Student";
 
-        ViewData["CareerGoal"] = "To become a skilled Full-Stack Web Developer and contribute to innovative software solutions.";
+        ViewData["CareerGoals"] = "To become a skilled Full-Stack Web Developer and contribute to innovative software solutions.";
 
         ViewData["Interest1"] = "Web Development";
         ViewData["Interest2"] = "Programming";
