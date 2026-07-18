@@ -1,4 +1,4 @@
-﻿
+﻿<!-- Contact -->
 
 <section id="contact" class="mb-5">
 
@@ -6,18 +6,18 @@
 
     <div class="card shadow p-4">
 
-        <p><strong>Email:</strong> ajlleano13@gmail.com</p>
+        <p><strong>Email:</strong>@ViewData["Email"]</p>
 
-        <p><strong>Mobile:</strong> 09935865995</p>
+        <p><strong>Mobile:</strong>@ViewData["Mobile"]</p>
 
-        <p><strong>GitHub:</strong> https://github.com/ajlleano13-sys</p>
+        <p><strong>GitHub:</strong>@ViewData["Github"]</p>
 
-        <p><strong>LinkedIn:</strong> https://www.linkedin.com/</p>
+        <p><strong>LinkedIn:</strong>@ViewData["LinkedIn"]</p>
 
-        <p><strong>Facebook:</strong> https://www.facebook.com/</p>
+        <p><strong>Facebook:</strong>@ViewData["Facebook"]</p>
 
         <button class="btn btn-success mt-3">
-            Download Resume
+            @ViewData["Resume"]
         </button>
 
     </div>

@@ -17,18 +17,17 @@
 
         <div class="col-md-8">
 
-            <h1>Angelica Joyce Leaño</h1>
+            <h1>@ViewData["Name"]</h1>
 
-            <h3>BS Information Technology Student</h3>
+            <h3>@ViewData["Course"]</h3>
 
             <p>
-                Hello! I'm an aspiring software developer who enjoys creating
-                websites and learning new technologies.
+                @ViewData["Message"]
             </p>
 
-            <a href="#projects" class="btn btn-primary me-2">View Projects</a>
+            <a href="#projects" class="btn btn-primary me-2">@ViewData["btnProject"]</a>
 
-            <a href="#contact" class="btn btn-success">Contact Me</a>
+            <a href="#contact" class="btn btn-success">@ViewData["btnContact"]</a>
 
         </div>
 
